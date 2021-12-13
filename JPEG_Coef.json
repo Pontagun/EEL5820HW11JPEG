@@ -43,7 +43,7 @@
    "nlower": -31,
    "nupper": -16,
    "lower": 16,
-   "upper": -31,
+   "upper": 31,
    "dccat": "5",
    "accat": "5"
  },
