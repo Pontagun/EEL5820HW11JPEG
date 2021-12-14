@@ -47,7 +47,7 @@ def dct(input_img, rows, cols):
 if __name__ == '__main__':
 
     prev_dc = 0
-    path = r'b16.jpg'
+    path = r'b32.jpg'
     img = cv2.imread(path, 0)
     dct_img = dct(img, img.shape[0], img.shape[1])
     img = dct_img
@@ -68,7 +68,7 @@ if __name__ == '__main__':
             # jpg.append(jpg_code)
             jpg = jpg + jpg_code
 
-    print((prev_dc))
+    print((jpg))
 
     # im = Image.fromarray(abs(img))
     # if im.mode != 'RGB':

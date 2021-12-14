@@ -25,7 +25,7 @@ def hex_to_dec(l):
     else:
         return l
 
-def hex_to_dec(l):
+def dec_to_hex(l):
     if l == 10:
         return 'A'
     elif l == 11:
@@ -56,7 +56,7 @@ def get_accode(cat_ac, z_r, val):
 
     cat_found = False
     i = 0
-    run_cat = str(hex_to_dec(z_r)) + '/' + str(hex_to_dec(cat_ac))
+    run_cat = str(dec_to_hex(z_r)) + '/' + str(hex_to_dec(cat_ac))
     while not cat_found:
         if ac_code[i]["runcat"] == run_cat:
             base_code = ac_code[i]["base"]
